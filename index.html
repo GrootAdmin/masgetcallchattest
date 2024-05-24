@@ -37,21 +37,32 @@ data-getcall-title-in-working-hours="Мы зателефонуємо Вам за
 Купити в 1 клік {{item.title}}.">Купити в 1 клік</a>
 
 
+
+<style>
+  body #bingc-phone-button svg.bingc-phone-button-circle
+circle.bingc-phone-button-circle-inside {
+fill: #66CDAA !important;
+}
+body #bingc-phone-button:hover svg.bingc-phone-button-circle
+circle.bingc-phone-button-circle-inside {
+fill: #66CDAA !important;
+}
+</style>
+
 <script type="text/javascript">
-(function(d, w, s) {
-    // Проверка, что текущий путь URL - это корень домена (главная страница)
-    if ((w.location.pathname === '/' || w.location.pathname === '') && w.location.hostname === 'https://grootadmin.github.io/masgetcallchattest.github.io/') {
-        var widgetHash = '2famgsd07lx2r735e6wj', 
-            gcw = d.createElement(s); 
-        gcw.type = 'text/javascript'; 
-        gcw.async = true;
-        gcw.src = '//widgets.binotel.com/getcall/widgets/' + widgetHash + '.js';
-        var sn = d.getElementsByTagName(s)[0]; 
-        sn.parentNode.insertBefore(gcw, sn);
-    }
-})(document, window, 'script');
+  (function(d, w, s) {
+      var widgetHash = 'uJNwSpBFspBKGaooSKUD', bch = d.createElement(s); bch.type = 'text/javascript'; bch.async = true;
+      bch.src = '//widgets.binotel.com/chat/widgets/' + widgetHash + '.js';
+      var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(bch, sn);
+  })(document, window, 'script');
+  </script>
 
+<script type="text/javascript">
+  (function(d, w, s) {
+	var widgetHash = '07dl0b7pdwfberxbqdxg', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
+	gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
+	var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
+  })(document, window, 'script');
 </script> 
-
 </body>
 </html>
