@@ -48,8 +48,7 @@ function myMap() {
 
 
 (function(d, w, s) {
-    var widgetHash = 'uJNwSpBFspBKGaooSKUD', bch = d.createElement(s); bch.type = 'text/javascript'; bch.async = true;
+    var widgetHash = 'N9QoQEFXMXZMcc6Yog1z', bch = d.createElement(s); bch.type = 'text/javascript'; bch.async = true;
     bch.src = '//widgets.binotel.com/chat/widgets/' + widgetHash + '.js';
     var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(bch, sn);
 })(document, window, 'script');
-
