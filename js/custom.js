@@ -11,8 +11,6 @@
     var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(bch, sn);
 })(document, window, 'script');
 
-
-
   (function(d, w, s) {
 	var widgetHash = '', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
 	gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
